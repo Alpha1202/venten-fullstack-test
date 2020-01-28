@@ -1,11 +1,21 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
+
+import Home from "./pages/Home";
+import SingleProduct from "./pages/SingleProduct";
+import NavBar from './components/NavBar';
+
+import {Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+  <>
+  <NavBar />
+  <Switch>
+   <Route exact path="/" component={Home} />
+  <Route exact path="/product/:id" component={SingleProduct} />
+  </Switch>
+  </>
   );
 }
 
