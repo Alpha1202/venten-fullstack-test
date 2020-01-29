@@ -1,30 +1,30 @@
-# Venten Fullstack Test
-This is the UI for Venten Fullstack Test. I built it with React.js
 
-## Getting Started
-To get a verison of this App locally, 
-- Kindly clone the develop branch in your terminal
-- `CD` into the project directory
-- `run npm install` to add the necessary dependencies
-- `run npm run start` to start the development server
+# Venten Fullstack Test UI
+> 
 
-## Prerequisites
-You will need to have the following installed
+## Installing / Getting started
 
-[nodejs](nodejs.org)
+You need to have the following tools installed on your computer before you install and run this project:
+- [Git](https://git-scm.com)
+- [Node.js](nodejs.org)
+- [React](reactjs.org)
 
-[reactjs](reactjs.org)
+To run:
 
+```shell
+git clone https://github.com/Alpha1202/venten-fullstack-test.git
+cd venten-fullstack-test
+npm install
+npm start
+```
 
-## Deployment
-This Project is hosted on []()
+The code above gets your server running
 
+## Links
 
-## Authors
-Nzubechukwu Nnamani
+- Repository: https://github.com/Alpha1202/venten-fullstack-test
+- Heroku: [https://venten-ui.herokuapp.com/](https://venten-ui.herokuapp.com/)
 
-## License
-N/A
+## Author
+- Nzubechukwu Nnamani
 
-### Acknowledgments
-venten 
