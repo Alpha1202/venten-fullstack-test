@@ -21,7 +21,7 @@ This Project is hosted on []()
 
 
 ## Authors
-Nzubechukwu
+Nzubechukwu Nnamani
 
 ## License
 N/A
