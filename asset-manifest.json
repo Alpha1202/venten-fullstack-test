@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/venten-fullstack-test/static/css/main.aa381872.chunk.css",
+    "main.js": "/venten-fullstack-test/static/js/main.e428b6de.chunk.js",
+    "main.js.map": "/venten-fullstack-test/static/js/main.e428b6de.chunk.js.map",
+    "runtime-main.js": "/venten-fullstack-test/static/js/runtime-main.138ce529.js",
+    "runtime-main.js.map": "/venten-fullstack-test/static/js/runtime-main.138ce529.js.map",
+    "static/js/2.950e38e5.chunk.js": "/venten-fullstack-test/static/js/2.950e38e5.chunk.js",
+    "static/js/2.950e38e5.chunk.js.map": "/venten-fullstack-test/static/js/2.950e38e5.chunk.js.map",
+    "index.html": "/venten-fullstack-test/index.html",
+    "precache-manifest.97061d60eda3c672e0e2d24a533dd6cb.js": "/venten-fullstack-test/precache-manifest.97061d60eda3c672e0e2d24a533dd6cb.js",
+    "service-worker.js": "/venten-fullstack-test/service-worker.js",
+    "static/css/main.aa381872.chunk.css.map": "/venten-fullstack-test/static/css/main.aa381872.chunk.css.map",
+    "static/js/2.950e38e5.chunk.js.LICENSE": "/venten-fullstack-test/static/js/2.950e38e5.chunk.js.LICENSE",
+    "static/media/logo.svg": "/venten-fullstack-test/static/media/logo.f513ef2c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.138ce529.js",
+    "static/js/2.950e38e5.chunk.js",
+    "static/css/main.aa381872.chunk.css",
+    "static/js/main.e428b6de.chunk.js"
+  ]
+}
