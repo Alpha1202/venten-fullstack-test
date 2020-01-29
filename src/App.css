@@ -69,6 +69,23 @@
     background: transparent;
     color: var(--primaryColor);
   }
+  .btn-secondary {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainBlack);
+    background: var(--offWhite);
+    padding: 0.4rem 0.9rem;
+    border: 3px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    text-transform: uppercase;
+    margin-left: 3em;
+    cursor: pointer;
+  }
+  .btn-secondary:hover {
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+  }
   .loading {
     text-transform: capitalize;
     text-align: center;
@@ -209,6 +226,21 @@
     }
   }
   /* End of Banner */
+  /* FORM */
+  .form-control {
+    height: 2.5em;
+    padding: 1em;
+  }
+  .form-group {
+    margin-top: 1em;
+  }
+  .form-error {
+    border: 2px solid red;
+  }
+  .textarea {
+    height: 4em !important;
+  }
+  /* END OF FORM */
   /* Title */
   .section-title {
     text-align: center;

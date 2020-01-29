@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { fetchAll, fetchOne } from './api/axios';
+import { fetchAll, fetchOne, addProduct } from './api/axios';
 
 const ProductContext = React.createContext();
 
@@ -7,6 +7,7 @@ const ProductContext = React.createContext();
   state = {
   products: [],
   product: {},
+  redirect: false,
   sortedProducts: [],
   loading: true,
   type: 'all',
@@ -25,12 +26,18 @@ const ProductContext = React.createContext();
  
   getProduct = async(id) => {
     const product = await fetchOne(id);
-    this.setState({product, loading:false})
+    this.setState({product, loading: false})
+  }
+
+  addProduct = async(productData) => {
+    this.setState({loading: true})
+    const product = await addProduct(productData);
+    this.setState({ product, loading: false, redirect: true})
   }
 
   render() {
     return (
-      <ProductContext.Provider value={{...this.state, getProduct:this.getProduct}}>
+      <ProductContext.Provider value={{...this.state, addProduct: this.addProduct, getProduct:this.getProduct}}>
         {this.props.children}
       </ProductContext.Provider>
     )

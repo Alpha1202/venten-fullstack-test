@@ -16,7 +16,21 @@ export const fetchOne = async (id) => {
 	return await axios
 		.get(`${baseUrl}products/${id}`)
 		.then((res) => {
-			console.log(res.data.data[0], 'fetchone');
+			return res.data.data[0];
+		})
+		.catch((error) => {
+			console.log(error.message);
+		});
+};
+
+export const addProduct = async (productData) => {
+	return await axios
+		.post(`${baseUrl}addproduct`, productData, {
+			headers: {
+				'Content-Type': 'multipart/form-data'
+			}
+		})
+		.then((res) => {
 			return res.data.data[0];
 		})
 		.catch((error) => {
